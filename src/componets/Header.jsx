@@ -4,6 +4,17 @@ import { useState, useRef } from "react"
 import Contact from "./Contact"
 import About from "./About"
 import Projects from "./Projects"
+import instagram from "../assets/instagram.png"
+import twitter from "../assets/twitter.png"
+import linkedin from "../assets/linkedin.png"
+import github from "../assets/github-mark.png"
+import contactIcon from "../assets/contacts.png"
+import projectIcon from "../assets/project_icon.png"
+import profilePic from "../assets/profile_pic.jpeg"
+import gmail from "../assets/gmail.png"
+import phone from "../assets/phone.png"
+import aboutMe from "../assets/about.png"
+
 
 export default function Header(props){
 const {contact, project, about, home} = props
@@ -47,21 +58,21 @@ const showDropicon = clsx("bar", isToggle && "active")
           <span></span>
         </button>
         <ul className={showDropDown}>
-        <li><img className="profile-pic" src="/src/assets/profile_pic.jpeg" alt=""/></li>
-        <li> <img className="dropdown-icon"  src="/src/assets/phone.png" alt="" />
+        <li><img className="profile-pic" src={profilePic} alt="profile-image"/></li>
+        <li> <img className="dropdown-icon"  src={phone} alt="" />
          <a className="phone-me" href="tel:+2349160327025">
             <button>CALL ME</button>
             </a></li>
         <li>
-           <img  className="dropdown-icon" src="/src/assets/contacts.png" alt="" /> <button onClick={handleContact}>CONTACT</button>  
+           <img  className="dropdown-icon" src={contactIcon} alt="contact-me" /> <button onClick={handleContact}>CONTACT</button>  
         </li>
     
         <li>
-          <img className="dropdown-icon"  src="/src/assets/project_icon.png" alt="" /> <button onClick={handlProject}> PROJECT</button> 
+          <img className="dropdown-icon"  src={projectIcon} alt="project-icon" /> <button onClick={handlProject}> PROJECT</button> 
         </li>
     
         <li>
-          <img className="dropdown-icon"  src="/src/assets/about.png" alt="" /> <button onClick={handleAbout}>ABOUT</button> 
+          <img className="dropdown-icon"  src={aboutMe} alt="" /> <button onClick={handleAbout}>ABOUT</button> 
         </li></ul>
         </div>
     </nav>
@@ -73,15 +84,15 @@ const showDropicon = clsx("bar", isToggle && "active")
        {/* <button onClick={handleContact} className="goto-contact">Hire Me</button> */}
        <div className="social-link">
        <a href="https://github.com/dayo-frontdev" target="_blank" rel="noopener noreferrer">
-        <img src='/src/assets/github-mark.png' alt="github" /></a> 
+        <img src={github} alt="github" /></a> 
         <a href="mailto:dayofrontdev@gmail.com">
-        <img src='/src/assets/gmail.png' alt="gmail" /></a>
+        <img src={gmail} alt="gmail" /></a>
         <a href="https://www.linkedin.com/in/olawale-dayo-201919368/" target="_blank" rel="noopener noreferrer">
-        <img src='/src/assets/linkedin.png' alt="linkedin" /></a>
+        <img src={linkedin} alt="linkedin" /></a>
         <a href="https://x.com/dayo_frontdev" target="_blank" rel="noopener noreferrer">
-        <img src='/src/assets/twitter.png' alt="twitter" /></a>
+        <img src={twitter} alt="twitter" /></a>
         <a href="https://instagram.com/dayo_frontdev" target="_blank" rel="noopener noreferrer">
-        <img src='/src/assets/instagram.png' alt="instagram" /></a>
+        <img src={instagram} alt="instagram" /></a>
         </div>
        </div>
        <div>
