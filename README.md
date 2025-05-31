@@ -41,6 +41,6 @@ If you'd like to clone and run this portfolio locally:
 
 ```bash
 git clone https://github.com/dayo-frontdev/my-portfolio.git
-cd my-portfolios
+cd my-portfolio
 npm install
 npm start
