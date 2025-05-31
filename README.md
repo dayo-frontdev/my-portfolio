@@ -40,7 +40,7 @@ I am **Olawale Dayo**, a passionate Frontend Developer dedicated to crafting eng
 If you'd like to clone and run this portfolio locally:  
 
 ```bash
-git clone https://github.com/yourusername/yourportfolio.git
-cd yourportfolio
+git clone https://github.com/dayo-frontdev/my-portfolio.git
+cd my-portfolios
 npm install
 npm start
