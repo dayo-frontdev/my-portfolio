@@ -1,0 +1,2 @@
+# Proxy Chef Cloud app
+/projects/chef-cloud-ai/*   https://chef-cloud-ai.netlify.app/:splat   200
