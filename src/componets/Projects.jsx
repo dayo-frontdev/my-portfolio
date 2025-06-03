@@ -24,7 +24,9 @@ export default function Projects(props){
         {img: assemblyWon, title: "Game Won" ,techStack: tech, id: nanoid()},
         {img: assemblylost, title:"Game Lost", techStack: tech, id: nanoid()}]
          
-        const cards = [chefCloud, tenziesGame, assemblyGame]
+        const cards = [{contain: chefCloud, link: "https://dayofrontdev.space/projects/chef-cloud-ai/"},
+          {contain: tenziesGame, link: "https://dayofrontdev.space/projects/tenzies-game/"},
+          {contain: assemblyGame, link: "https://dayofrontdev.space/projects/assemblyend-game/"}]
         // GOAL: creating an auto moving slider that continuously scrolls to right - infinitely
         // I need use state to track current index
         // need effect to handle dom
@@ -40,7 +42,7 @@ useEffect(() => {
     setInterval(() => {
       setCurrentIndices(prev => {
         const newIndices = [...prev];
-        newIndices[i] = (newIndices[i] + 1) % card.length;
+        newIndices[i] = (newIndices[i] + 1) % card.contain.length;
         return newIndices;
       });
     }, 3000)
@@ -68,13 +70,16 @@ useEffect(() => {
 
 
 const projectsCard = cards.map((card, i)=>{
-   const cardElement = card.map((slide, j) =>{
-    return ( <article ref={el => containerRefs.current[j] = el} key={slide.id}  className="cards">
-           <img src={slide.img} alt={slide.title} />
-           <div className="card-content"> <h2>{slide.title}</h2>
+   const cardElement = card.contain.map((slide, j) =>{
+    return ( 
+      <article key={slide.id}  ref={el => containerRefs.current[j] = el}  className="cards">
+         <a className="card" href={card.link}>   <img src={slide.img} alt={slide.title} />
+          
+          <div className="card-content"> <h2>{slide.title}</h2>
            <p>{slide.techStack}</p>
-           </div>
+           </div></a>
        </article>)
+       
      })
     
 

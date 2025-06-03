@@ -1,2 +1,4 @@
 # Proxy Chef Cloud app
 /projects/chef-cloud-ai/*   https://chef-cloud-ai.netlify.app/:splat   200
+/projects/tenzies-game/*   https://tenzies-game.netlify.app/:splat   200
+/projects/assemblyend-game/*   https://assemblyend-game.netlify.app/:splat   200
