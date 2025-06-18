@@ -100,7 +100,8 @@ const showDropicon = clsx("bar", isToggle && "active")
        <p className="description">I design and build responsive,
          user-friendly websites using modern tools like React etc.
          focused on performance and clean code. <span className="resume">
-          <a href={resume} download >Download Resume</a>
+          <a href="https://raw.githubusercontent.com/dayo-frontdev/my-resume/main/Dayo-Front-End-cv.pdf"
+          target="_blank" rel="noopener noreferrer" download >Download Resume</a>
           </span></p>
          
        <button onClick={handlProject} className="goto-project">View Projects</button>
