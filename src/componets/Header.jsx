@@ -1,6 +1,6 @@
 import logo from "../assets/logo.PNG"
 import clsx from "clsx"
-import { useState, useRef } from "react"
+import { useState, } from "react"
 import Contact from "./Contact"
 import About from "./About"
 import Projects from "./Projects"
@@ -14,7 +14,7 @@ import profilePic from "../assets/profile_pic.jpeg"
 import gmail from "../assets/gmail.png"
 import phone from "../assets/phone.png"
 import aboutMe from "../assets/about.png"
-import resume from "../assets/dayofrontend.pdf"
+
 
 
 export default function Header(props){
