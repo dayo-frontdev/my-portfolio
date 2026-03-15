@@ -81,7 +81,7 @@ const showDropicon = clsx("bar", isToggle && "active")
        <h1 className="name">OLAWALE DAYO</h1>
     <section className="hero-section">
         <div>
-       <h2 className="role">FRONT-END DEVELOPER</h2>
+       <h2 className="role">FULL-STACK DEVELOPER</h2>
        {/* <button onClick={handleContact} className="goto-contact">Hire Me</button> */}
        <div className="social-link">
        <a href="https://github.com/dayo-frontdev" target="_blank" rel="noopener noreferrer">
@@ -97,9 +97,9 @@ const showDropicon = clsx("bar", isToggle && "active")
         </div>
        </div>
        <div>
-       <p className="description">I design and build responsive,
-         user-friendly websites using modern tools like React etc.
-         focused on performance and clean code. <span className="resume">
+       <p className="description">I design and build responsive, user-friendly web applications,
+           from intuitive front-end interfaces to scalable back-end systems, using modern tools like React, 
+           Node.js, and REST APIs, with a focus on performance and clean code.​​​​​​​​​​​​​​​​ <span className="resume">
           <a href="https://raw.githubusercontent.com/dayo-frontdev/my-resume/main/Dayo-Front-End-cv.pdf"
           target="_blank" rel="noopener noreferrer" download >Download Resume</a>
           </span></p>
