@@ -139,7 +139,7 @@ letter-spacing: 0%;
 .description{
 max-width: 28.125rem;
 min-width: 18.4375rem;
-height: 8.125rem;     
+height: 100%;     
 font-weight: 500;
 font-size: 0.9375rem;
 line-height: 2.1875rem;
