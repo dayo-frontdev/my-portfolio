@@ -100,7 +100,7 @@ const showDropicon = clsx("bar", isToggle && "active")
        <p className="description">I design and build responsive, user-friendly web applications,
            from intuitive front-end interfaces to scalable back-end systems, using modern tools like React, 
            Node.js, and REST APIs, with a focus on performance and clean code.​​​​​​​​​​​​​​​​ <span className="resume">
-          <a href="https://raw.githubusercontent.com/dayo-frontdev/my-resume/main/Dayo-Front-End-cv.pdf"
+          <a href="https://raw.githubusercontent.com/dayo-frontdev/my-resume/main/Dayo-Full-Stack-cv.pdf"
           target="_blank" rel="noopener noreferrer" download >Download Resume</a>
           </span></p>
          
