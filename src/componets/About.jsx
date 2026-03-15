@@ -8,14 +8,12 @@ export default function About(props){
             </h1>
 
             <p className="bio">
-            Hi, I’m Olawale Dayo, a frontend
-             developer and Computer Science student at the National Open University of 
-             Nigeria (NOUN). I enjoys turning ideas
-              into interactive, responsive websites.
-               I specialize in HTML, CSS, JavaScript, and modern tools like React. 
-               My goal is to build clean, user-focused 
-            interfaces that work smoothly
-             across all devices.
+            Hi, I’m Olawale Dayo, a Full Stack Developer and Computer Science student 
+            at the National Open University of Nigeria (NOUN). 
+            I enjoy building complete web applicationsfrom clean, 
+            responsive front-end interfaces to robust back-end systems. 
+            I specialize in HTML, CSS, JavaScript, React, Node.js, and REST APIs, 
+            with a passion for creating user-focused experiences that work seamlessly across all devices.​​​​​​​​​​​​​​​​
             <br/> <br/>
              Beyond code, I’m curious,
              creative, and always learning.
